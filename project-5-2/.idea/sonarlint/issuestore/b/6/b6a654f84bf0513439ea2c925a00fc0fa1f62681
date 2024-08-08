@@ -1,0 +1,19 @@
+
+
+java:S1192"FDefine a constant instead of duplicating this literal "utf-8" 3 times.(ğÓ•ûÿÿÿÿ8»Ñ‹Èû1J$71e61327-ec9b-42f2-9fa5-028ed8ea1cfe
+¨
+java:S1989"`Handle the following exceptions that could be thrown by "doPost": ServletException, IOException.(éöõ¦ùÿÿÿÿ8ÄÍ„Èû1J$bf484af5-990a-406a-a7a4-02cd99b7ee2b
+›
+java:S1989"SHandle the following exception that could be thrown by "sendRedirect": IOException.(ğÓ•ûÿÿÿÿ8ÔÍ„Èû1J$80c787b9-ffa6-4d6e-a933-14f50cc5372b
+¦
+java:S1989"^Handle the following exception that could be thrown by "encode": UnsupportedEncodingException.(ğÓ•ûÿÿÿÿ8ÔÍ„Èû1J$715800b1-6a9d-435e-9c3c-f9c469ca4c04
+›
+java:S1989!"SHandle the following exception that could be thrown by "sendRedirect": IOException.(Æ¢ìÊüÿÿÿÿ8ÔÍ„Èû1J$c078f667-5638-42f2-9d62-fb939309b546
+¦
+java:S1989!"^Handle the following exception that could be thrown by "encode": UnsupportedEncodingException.(Æ¢ìÊüÿÿÿÿ8ÔÍ„Èû1J$8bd9cc6f-a8f6-48d8-b2de-427758c30b8f
+‚
+java:S2441$":Make "User" serializable or don't store it in the session.(Ãáÿÿÿÿÿ8çÍÂÊû1J$bd2e5608-fccf-43a6-b9da-6d363f156df5
+›
+java:S1989%"SHandle the following exception that could be thrown by "sendRedirect": IOException.(ÛšŠøÿÿÿÿ8Ä£ŠÈû1J$27ba6df1-febc-46f9-934a-8eff85ce84dc
+¦
+java:S1989%"^Handle the following exception that could be thrown by "encode": UnsupportedEncodingException.(ÛšŠøÿÿÿÿ8ËÑ‹Èû1J$08eed5dc-4267-4027-84e6-1d95bdb0264b

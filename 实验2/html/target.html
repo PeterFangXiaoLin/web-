@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+        span {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="box" id="box">
+
+    </div>
+</body>
+<script>
+    const res = new URLSearchParams(window.location.search);
+    const box = document.getElementById('box');
+
+    const userId = document.createElement('span');
+    userId.innerText = '用户ID: ' + res.get('userId');
+    box.appendChild(userId);
+
+    const username = document.createElement('span');
+    username.innerText = '用户名: ' + res.get('username');
+    box.appendChild(username);
+
+    const word = document.createElement('span');
+    word.innerText = '口令: ' + res.get('word');
+    box.appendChild(word);
+
+    const conf = document.createElement('span');
+    conf.innerText = '确认口令: ' + res.get('confirm');
+    box.appendChild(conf);
+
+    const birthday = document.createElement('span');
+    birthday.innerText = '生日: ' + res.get('birthday');
+    box.appendChild(birthday);
+
+    const education = document.createElement('span');
+    education.innerText = '学历: ' + res.get('education');
+    box.appendChild(education);
+
+    const area = document.createElement('span');
+    area.innerText = '地区: ' + res.get('area');
+    box.appendChild(area);
+
+    const email = document.createElement('span');
+    email.innerText = '邮箱: ' + res.get('email');
+    box.appendChild(email);
+
+    const address = document.createElement('span');
+    address.innerText = '地址: ' + res.get('address');
+    box.appendChild(address);
+
+    const phone = document.createElement('span');
+    phone.innerText = '电话: ' + res.get('phone');
+    box.appendChild(phone);
+
+    const textarea = document.createElement('span');
+    textarea.innerText = '备注: ' + res.get('textarea');
+    box.appendChild(textarea);
+</script>
+
+</html>

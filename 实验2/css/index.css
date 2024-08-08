@@ -1,0 +1,28 @@
+.container {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+label {
+    width: 100px;
+    display: inline-block;
+}
+
+div {
+    margin-bottom: 20px;
+}
+
+.remark {
+    display: flex;
+    align-items: center;
+}
+
+.reset {
+    margin-right: 30px;
+}
+
+span {
+    color: #e43937;
+}

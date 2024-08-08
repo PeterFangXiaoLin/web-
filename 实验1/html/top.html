@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar</title>
+    <style>
+        .nav {
+            display: flex;
+            width: 100%;
+            background-color: lavender;
+        }
+
+        .title {
+            font-size: 50px;
+            text-wrap: nowrap;
+        }
+
+        .btn {
+            margin-top: 25px;
+            display: flex;
+            margin-left: auto;
+        }
+
+        .btn>div {
+            width: 40px;
+            cursor: pointer;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="nav">
+        <div class="title">广州风景</div>
+        <div class="btn">
+            <div id="login">登录</div>
+            <div id="register">注册</div>
+        </div>
+    </div>
+</body>
+
+<script>
+    document.getElementById('login').addEventListener('click', function () {
+        window.top.location.href = '../html/login.html';
+    })
+
+    document.getElementById('register').addEventListener('click', function () {
+        window.top.location.href = '../html/register.html'
+    })
+</script>
+
+</html>

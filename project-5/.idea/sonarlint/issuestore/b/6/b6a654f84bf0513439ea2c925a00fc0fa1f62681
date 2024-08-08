@@ -1,0 +1,23 @@
+
+	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(¹åÕûÿÿÿÿ8ÅÀÂÀû1J$340d730b-ad24-492b-8df9-fac82d2832e4
+ˆ	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(ü§‹ê8ÅÀÂÀû1J$aae0705a-b0d7-461a-8cff-20a74843e1e0
+‰
+java:S1192#"FDefine a constant instead of duplicating this literal "utf-8" 4 times.(Ò÷‘ö8Ä´ÃÀû1J$a0b90eb3-a6db-4abd-9511-7b6f5be8c626
+¨
+java:S1989"`Handle the following exceptions that could be thrown by "doPost": ServletException, IOException.(éöõ¦ùÿÿÿÿ8ÕÀÂÀû1J$95f96ad7-0350-4882-925b-efb19fafae0d
+‰
+java:S1989"AHandle the "RuntimeException" thrown here in a "try/catch" block.(¹åÕûÿÿÿÿ8ÕÀÂÀû1J$8dca4dad-c014-4f1f-b0f2-f27b650cb702
+„
+java:S1989"AHandle the "RuntimeException" thrown here in a "try/catch" block.(ü§‹ê8ÕÀÂÀû1J$b1aa09a5-6816-48ef-bbc9-266789a7f350
+–
+java:S1989&"SHandle the following exception that could be thrown by "sendRedirect": IOException.(À‚Ô‹8ÕÀÂÀû1J$40b3780c-d44e-4ab1-97f2-a5556a62b43e
+¡
+java:S1989&"^Handle the following exception that could be thrown by "encode": UnsupportedEncodingException.(À‚Ô‹8ÕÀÂÀû1J$720e55e5-85ad-42a0-9312-36c49222ee19
+›
+java:S1989)"SHandle the following exception that could be thrown by "sendRedirect": IOException.(ÿ–Á‚ùÿÿÿÿ8ÕÀÂÀû1J$a2405aca-98c7-4c5c-8924-83ac5ad8fe45
+¦
+java:S1989)"^Handle the following exception that could be thrown by "encode": UnsupportedEncodingException.(ÿ–Á‚ùÿÿÿÿ8Ó´ÃÀû1J$d2e12996-5fd1-4d8b-9284-e4fb9b0b0ac1
+•
+java:S1989+"SHandle the following exception that could be thrown by "sendRedirect": IOException.(çŞ†8ÕÀÂÀû1J$e979c2ed-a90e-4cfe-bc7a-69f6704e01bf
+ 
+java:S1989+"^Handle the following exception that could be thrown by "encode": UnsupportedEncodingException.(çŞ†8ŸÄÀû1J$ad22fabe-9f11-4370-b7ef-80e789e0dc7f

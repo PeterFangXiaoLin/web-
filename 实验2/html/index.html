@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>注册</title>
+    <link rel="stylesheet" href="../css/index.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="shell">
+            <form action="target.html" method="get">
+
+                <div>
+                    <label for="userId">用户ID：</label>
+                    <input type="text" id="userId" placeholder="请输入用户id" name="userId">
+                    <span id="e_userId"></span>
+                </div>
+                <div>
+                    <label for="username">用户名：</label>
+                    <input type="text" id="username" placeholder="请输入用户名" name="username">
+                    <span id="e_username"></span>
+                </div>
+
+                <div>
+                    <label for="word">口令：</label>
+                    <input type="text" id="word" placeholder="请输入口令" name="word">
+                    <span id="e_word"></span>
+                </div>
+
+                <div>
+                    <label for="confirm">确认口令：</label>
+                    <input type="text" id="confirm" placeholder="请确认口令" name="confirm">
+                    <span id="e_confirm"></span>
+                </div>
+
+                <div>
+                    <label for="birthday">生日：</label>
+                    <input type="text" id="birthday" placeholder="请输入生日" name="birthday">
+                    <span id="e_birthday"></span>
+                </div>
+
+                <div>
+                    <label>学历：</label>
+                    <input type="radio" id="1" name="education" checked value="专科">
+                    <label for="1">专科</label>
+                    <input type="radio" id="2" name="education" value="本科">
+                    <label for="2">本科</label>
+                    <input type="radio" id="3" name="education" value="硕士研究生">
+                    <label for="3">硕士研究生</label>
+                    <input type="radio" id="4" name="education" value="博士研究生">
+                    <label for="4">博士研究生</label>
+                    <input type="radio" id="5" name="education" value="其他">
+                    <label for="5">其他</label>
+                </div>
+
+                <div>
+                    <label>地区：</label>
+                    <select name="area" id="options">
+                        <option value="华南">华南</option>
+                        <option value="华东">华东</option>
+                        <option value="华中">华中</option>
+                        <option value="华北">华北</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="email">邮箱：</label>
+                    <input type="text" id="email" placeholder="请输入邮箱" name="email">
+                    <span id="e_email"></span>
+                </div>
+
+                <div>
+                    <label for="address">地址：</label>
+                    <input type="text" id="address" placeholder="请输入地址" name="address">
+                    <span id="e_address"></span>
+                </div>
+
+                <div>
+                    <label for="phone">电话：</label>
+                    <input type="text" id="phone" placeholder="请输入电话" name="phone">
+                    <span id="e_phone"></span>
+                </div>
+
+                <div class="remark">
+                    <label for="profile">备注：</label>
+                    <textarea name="textarea" id="profile" cols="60" rows="15"></textarea>
+                </div>
+
+                <div>
+                    <input type="reset" value="重置" class="reset">
+                    <input type="submit" value="提交">
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+<script src="../js/index.js"></script>
+
+
+</html>
